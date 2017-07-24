@@ -1,9 +1,11 @@
-package com.ramadan.twitterclient;
+package com.ramadan.twitterclient.presentation.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.ramadan.twitterclient.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

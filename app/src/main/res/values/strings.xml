@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TwitterClient</string>
+    <string name="TWITTER_KEY">utFYhx3xapFFnmsFN671w6avW</string>
+    <string name="TWITTER_SECRET">EMHvA0UFJxwyuyG9UAqPVkCpURUWG8teYysVhIlOF7mslfLen5</string>
 </resources>
