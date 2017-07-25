@@ -2,4 +2,39 @@
     <string name="app_name">TwitterClient</string>
     <string name="TWITTER_KEY">utFYhx3xapFFnmsFN671w6avW</string>
     <string name="TWITTER_SECRET">EMHvA0UFJxwyuyG9UAqPVkCpURUWG8teYysVhIlOF7mslfLen5</string>
+
+
+    <string name="screen_name">Twitter ID : %s</string>
+    <string name="bio">Biography : %s</string>
+
+    <!-- ** ** ** ** ** ** ** ** ** ** ** ** ** ** FollowerItemList View ** ** ** ** ** ** ** ** ** ** ** ** ** **  -->
+
+    <string name="follower_name">Follower Name</string>
+    <string name="follower_twitter_id">Follower Twitter ID</string>
+    <string name="follower_desc">Follower Description</string>
+    <string name="no_bio">No Biography</string>
+
+    <!-- ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** FollowerInfoActivity View ** ** ** ** ** ** ** ** ** ** ** ** **  -->
+
+    <string name="tweets">User Tweets</string>
+    <string name="retweets_count">%s Retweets</string>
+    <string name="retweets_count_number">20 Retweets</string>
+    <string name="tweet_created_at">Mon Aug 25</string>
+
+    <!-- ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** Settings View ** ** ** ** ** ** ** ** ** ** ** ** **  -->
+
+    <string name="change_language">Change Language</string>
+    <string name="change_language_body_arabic">Are You Sure To Change Language To Arabic</string>
+    <string name="logout">Logout</string>
+
+    <!-- ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** Logout AlertDialog View ** ** ** ** ** ** ** ** ** ** ** ** **  -->
+    <string name="logout_title">Log out?</string>
+    <string name="logout_body">Are Your Sure?</string>
+    <string name="logout_yes">Yes</string>
+    <string name="logout_cancel">No</string>
+
+    <!-- ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **  -->
+
+    <string name="title_activity_followers_info">FollowersInfoActivity</string>
+    <string name="followers">%s\'s Followers</string>
 </resources>

@@ -5,4 +5,5 @@ package com.ramadan.twitterclient.presentation.activity;
  */
 
 public interface LoginView {
+    void onPreviousLoginExisted(boolean flag);
 }

@@ -4,5 +4,7 @@ package com.ramadan.twitterclient.presentation.presenter;
  * Created by Mahmoud Ramadan on 7/24/17.
  */
 
-public interface LoginPresenter {
+public interface LoginPresenter extends BasePresenter {
+    void checkPreviousLogin();
+
 }

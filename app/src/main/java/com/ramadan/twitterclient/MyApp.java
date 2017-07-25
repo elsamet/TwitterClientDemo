@@ -12,9 +12,10 @@ import com.twitter.sdk.android.core.TwitterConfig;
  * Created by Mahmoud Ramadan on 7/24/17.
  */
 
+//This class manages Twitter Initialization and get global access to our app
 public class MyApp extends Application {
 
-    private MyApp instance;
+    private static MyApp instance;
 
     @Override
     public void onCreate() {
@@ -37,7 +38,7 @@ public class MyApp extends Application {
         instance = null;
     }
 
-    public MyApp getInstance(){
+    public static MyApp getInstance(){
         return  instance;
 
     }
