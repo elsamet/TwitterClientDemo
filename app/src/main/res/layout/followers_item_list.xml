@@ -18,7 +18,7 @@
         android:layout_height="match_parent"
         android:background="?attr/selectableItemBackground"
         android:layoutDirection="locale"
-        android:onClick="@{followersItemListViewModel::onItemClick}">
+       >
 
         <ImageView
             android:id="@+id/follower_item_list_profile_image_view"

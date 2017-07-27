@@ -5,7 +5,8 @@ package com.ramadan.twitterclient;
  */
 
 public class AppConst {
-    public static String PREFS_DB = "prefs_db";
-    public static String USER_NAME = "user_name";
-    public static  String USER = "user";
+    public static final String PREFS_DB = "prefs_db";
+    public static final String USER_NAME = "user_name";
+    public static final String USER = "user";
+    public static final int SPLACH_DURATION = 2000;//2sec
 }

@@ -1,4 +1,4 @@
-package com.ramadan.twitterclient.presentation.activity;
+package com.ramadan.twitterclient.presentation.activity.followers;
 
 /**
  * Created by Mahmoud Ramadan on 7/24/17.

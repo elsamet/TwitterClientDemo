@@ -1,15 +1,16 @@
-package com.ramadan.twitterclient.presentation.activity;
+package com.ramadan.twitterclient.presentation.activity.followers;
 
 import android.content.Context;
 import android.content.Intent;
 
 import com.ramadan.twitterclient.R;
+import com.ramadan.twitterclient.presentation.activity.BaseActivity;
 
 /**
  * Created by Mahmoud Ramadan on 7/24/17.
  */
 
-public class FollowersActivity extends BaseActivity{
+public class FollowersActivity extends BaseActivity {
     @Override
     protected int getLayoutId() {
         return R.layout.activity_followers_list;

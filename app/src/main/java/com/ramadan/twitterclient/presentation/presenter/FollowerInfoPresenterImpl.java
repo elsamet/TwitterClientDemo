@@ -1,8 +1,6 @@
 package com.ramadan.twitterclient.presentation.presenter;
 
-import android.view.View;
-
-import com.ramadan.twitterclient.presentation.activity.FollowerInfoView;
+import com.ramadan.twitterclient.presentation.activity.follower_info.FollowerInfoView;
 
 /**
  * Created by Mahmoud Ramadan on 7/24/17.
