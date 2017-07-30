@@ -1,8 +1,11 @@
-package com.ramadan.twitterclient;
+package com.ramadan.twitterclient.common;
 
 import android.app.Application;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
+import com.ramadan.twitterclient.R;
 import com.twitter.sdk.android.core.DefaultLogger;
 import com.twitter.sdk.android.core.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
@@ -29,6 +32,8 @@ public class MyApp extends Application {
                 .debug(true)
                 .build();
         Twitter.initialize(config);
+
+        AppLocal.setAppLocal(getApplicationContext(), AppLocal.getAppLocal());
     }
 
     @Override
@@ -41,5 +46,9 @@ public class MyApp extends Application {
     public static MyApp getInstance(){
         return  instance;
 
+    }
+
+    public SharedPreferences getDefaultSharedPreferences() {
+        return PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
     }
 }

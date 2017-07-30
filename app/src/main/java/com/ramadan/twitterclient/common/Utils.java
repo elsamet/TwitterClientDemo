@@ -1,4 +1,4 @@
-package com.ramadan.twitterclient;
+package com.ramadan.twitterclient.common;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

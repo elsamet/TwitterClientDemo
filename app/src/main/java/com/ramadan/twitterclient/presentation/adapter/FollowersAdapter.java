@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.ramadan.twitterclient.R;
-import com.ramadan.twitterclient.Utils;
+import com.ramadan.twitterclient.common.Utils;
 import com.twitter.sdk.android.core.models.User;
 
 import java.util.List;
@@ -32,7 +32,7 @@ public class FollowersAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     private List<User> itemList;
     private FollowerItemClickListener followerItemClickListener;
 
-    FollowersAdapter(List<User> itemList, FollowerItemClickListener followerItemClickListener) {
+   public  FollowersAdapter(List<User> itemList, FollowerItemClickListener followerItemClickListener) {
         this.itemList = itemList;
         this.followerItemClickListener = followerItemClickListener;
     }
@@ -132,7 +132,7 @@ public class FollowersAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         }
     }
 
-    interface FollowerItemClickListener {
+    public interface FollowerItemClickListener {
         void onFollowerClick(User follower);
     }
 }

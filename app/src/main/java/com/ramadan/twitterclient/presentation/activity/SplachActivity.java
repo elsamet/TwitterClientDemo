@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.ramadan.twitterclient.AppConst;
+import com.ramadan.twitterclient.common.AppConst;
 import com.ramadan.twitterclient.R;
 import com.ramadan.twitterclient.data.UserManager;
 import com.ramadan.twitterclient.presentation.activity.followers.FollowersActivity;

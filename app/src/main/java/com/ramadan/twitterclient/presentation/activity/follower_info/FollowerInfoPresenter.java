@@ -7,4 +7,7 @@ import com.ramadan.twitterclient.presentation.presenter.BasePresenter;
  */
 
 public interface FollowerInfoPresenter extends BasePresenter {
+    void start();
+
+    void stop();
 }
